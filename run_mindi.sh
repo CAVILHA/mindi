@@ -20,6 +20,8 @@ do
     export HUBOT_IRC_ROOMS="#neomind"
     export HUBOT_IRC_NICK="mindi-bot"
     export HUBOT_PLAY_URL="http://neomini.local:5050"
+    export HUBOT_MEMEGEN_USERNAME="neomind"
+    export HUBOT_MEMEGEN_PASSWORD="mindibot"
     
     bin/hubot -a irc -n $HUBOT_IRC_NICK
 
