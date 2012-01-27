@@ -131,6 +131,7 @@ Here's a list of what Mindi knows to respond to as of Jan 26th, 2012:
     where's play - Gives you the URL to the web app.
     who is <user> - see what roles a user has
     who is support?              - find out who is covering merlin support
+    who's in the office - List everyone in the office
     xkcd       - The latest XKCD comic
     xkcd <num> - XKCD comic matching the supplied number
     youtube me <query> - Searches YouTube for the query and returns the video
