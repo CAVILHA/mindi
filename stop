@@ -1,0 +1,9 @@
+#!/bin/sh
+
+kill_matching() {
+  ps wuax | grep "$1" | awk '{print $2}' | xargs kill
+}
+
+kill_matching 'run_mindi.s[h]'
+kill_matching 'mindi-bo[t]'
+
